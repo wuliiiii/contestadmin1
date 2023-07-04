@@ -12,6 +12,9 @@
 #operator member1
 
 #operator member2
+1、基于需求和目标，设计用户界面（UI）和用户体验（UX），包括布局、颜色、图标等。模拟创建原型图，并与团队成员进行反馈和讨论。
+2、确定构建用户界面的JavaScript框架——Vue3，观看黑马程序员教学视频，学习并跟练相关的知识。
+3、已经写出了基本的HTML结构，加载了一个JavaScript文件（/src/main.js），具体的实现效果需要在main.js文件中继续补充。
 
 #operator member3
 1、配置环境及依赖
