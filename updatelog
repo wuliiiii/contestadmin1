@@ -27,7 +27,9 @@
 #ADD
 ##2023-7-05 Day3
 #operator member1
-
+1、上传了Atcodercorn.java,Codeforce.java
+2、redis版本号有问题，卸载重装
+3、尝试连接数据库
 
 #operator member2
 1、搭建项目基础结构，包括Spring Boot和Vue框架的集成
