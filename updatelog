@@ -33,8 +33,30 @@
 
 #operator member2
 1、搭建项目基础结构，包括Spring Boot和Vue框架的集成
-
+2、提交了index.html和main.js文件
 
 #operator member3
 1、上传了CFAccountEntity.java等文件，用于定义对象的属性和行为
 2、学习了一些关于后端的知识，边学边操作
+
+#ADD
+##2023-7-06 Day4
+#operator member1
+
+
+#operator member2
+1、后端方面写了一些User相关的控制类，提供了四个API接口以实现用户的注册、登录和个人信息管理功能
+2、前端方面暂时只写了对应的用户的注册、登录界面
+3、提交了UserAtcoderController.java、
+        UserCodeforcesController.java、
+        UserController.java、
+        UserDataController.java文件
+4、提交了register.html和login.html等相关文件
+
+#operator member3
+
+
+
+
+
+
