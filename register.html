@@ -1,0 +1,66 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: DELL
+  Date: 2022/12/18
+  Time: 19:55
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>update</title>
+    <link href="css/login.css" rel="stylesheet">
+</head>
+
+<body background="imgs/a.jpg">
+
+<div id="dingwei">
+<div id="updateDiv">
+    <form action="/Maven_web/quXuanChuanServlet" method="post" id="form">
+
+        <%--隐藏域，提交id--%>
+        <input type="hidden" name="vid" value="${vip.vid}">
+
+        <h1 id="updateMsg">Log in Successfully!</h1>
+        <p>账号名：<input id="vusername" name="vusername" type="text" value="${vip.vusername}"></p>
+
+        <p>真实姓名:<input id="vname" name="vname" type="text" value="${vip.vname}"></p>
+
+        <p>年龄：<input id="vage" name="vage" type="text" value="${vip.vage}"></p>
+
+        <c:if test="${vip.vsex == 1}">
+            <input type="radio" name="vsex" value="1" checked="checked">女
+            <input type="radio" name="vsex" value="2" >男<br>
+        </c:if>
+        <c:if test="${vip.vsex == 0}">
+            <input type="radio" name="vsex" value="1" >女
+            <input type="radio" name="vsex" value="2" checked="checked">男<br>
+        </c:if>
+
+        <c:if test="${vip.vlevel == 1}">
+            <input type="radio" name="vlevel" value="1" checked="checked">管理员
+            <input type="radio" name="vlevel" value="2" >普通会员<br>
+        </c:if>
+        <c:if test="${vip.vlevel == 2}">
+            <input type="radio" name="vlevel" value="1" >管理员
+            <input type="radio" name="vlevel" value="2" checked="checked">普通会员<br>
+        </c:if>
+
+            <input type="submit" value="去选船~">
+    </form>
+
+    <form action="/Maven_web/selectByCidServlet" method="post" id="form1">
+        <%--隐藏域，提交id--%>
+        <input type="hidden" name="vid" value="${vip.vid}">
+        <input type="submit" value="查询消费记录" id="consume">
+    </form>
+</div>
+</div>
+</body>
+</html>
+
