@@ -60,7 +60,7 @@
 2、进一步学习了后端框架搭建的知识
 
 #ADD
-##2023-7-06 Day5
+##2023-7-07 Day5
 #operator member1
 1.IDEA连接数据库
 2.通过spider改写数据库
@@ -74,6 +74,17 @@
 #operator member3
 1、继续边学习边实践搭建后端的框架
 2、上传了实体类文件
+
+#ADD
+##2023-7-08 Day6
+#operator member1
+
+#operator member2
+
+#operator member3
+1、继续完成了管理用户信息的实体类和一些用于处理用户相关请求的Controller类
+2、学会需求分析、接口设计、架构设计和模块设计
+3、继续学习Springboot
 
 
 
