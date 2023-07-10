@@ -85,6 +85,8 @@
 1、继续完成了管理用户信息的实体类和一些用于处理用户相关请求的Controller类
 2、学会需求分析、接口设计、架构设计和模块设计
 3、继续学习Springboot
+
+
 #ADD
 ##2023-7-09 Day7
 #operator member1
@@ -100,6 +102,8 @@
 #operator member1
 
 #operator member2
+1、上传了改善后的login.html等文件
+2、继续学习vue3项目的开发
 
 #operator member3
 1、基本上完成了User类，Controller类和Entity类；
