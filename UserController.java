@@ -88,7 +88,6 @@ public class UserController {
         info.put("school",userEntity.getSchool().toString());
         ret.put("token", jwtUtil.createToken(info));
         ret.put("username",userEntity.getUsername());
-        ret.put("id",userEntity.getId());
         return ResponseUtil.JSONReturn(200,ret);
     }
     @PostMapping("/api/user/flush")
